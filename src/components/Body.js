@@ -67,7 +67,7 @@ const Body = () => {
       <div className="flex flex-wrap justify-between">
         {
           filteredList.map((restaurant) => (
-            <Link className=""
+            <Link 
               key={restaurant.info.id}
               to={"/restaurants/" + restaurant.info.id}
             >
